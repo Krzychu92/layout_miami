@@ -15,7 +15,7 @@
     grid-column: 1/13;
   }
 
-   &__text {
+  &__text {
     text-align: center;
     font-family: Space Grotesk, Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -26,15 +26,14 @@
     color: #fff;
     width: 100%;
 
-}
+  }
 
- &:hover {
+  &:hover {
     border-radius: 8px;
     border: 2px solid #f0f1f4;
     background: #f8f8fa;
     color: #292929;
   }
-
 
   &--primary {
     margin: 40px 0 96px;
