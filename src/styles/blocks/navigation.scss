@@ -1,24 +1,24 @@
 .navigation {
-  padding: 28px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   &__menu {
-    padding: 28px 20px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
 
   &__logo {
-    width: 150px;
+    width: 125px;
+    height: 16px;
     object-fit: cover;
-    align-self: center;
   }
 
   &__buttons {
     display: flex;
+    justify-content: end;
     gap: 24px;
   }
 }

@@ -6,7 +6,6 @@
   line-height: 100%;
 
   &--header {
-    padding: 40px 20px;
     font-size: 36px;
   }
 
@@ -14,15 +13,12 @@
     font-size: 32px;
     box-sizing: border-box;
     padding: 64px 0 48px;
+    display: inline-block;
   }
 
   &__second {
-    color: #292929;
-    font-family: Space Grotesk, Arial, Helvetica, sans-serif;
+    display: block;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px; /* 100% */
     padding: 56px 0 8px;
   }
 
